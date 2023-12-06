@@ -234,7 +234,6 @@ export default function Create() {
             </>
           )}
 
-          /* FORMULARIO FORMULARIO FORMULARIO */
           <form onSubmit={onSubmit} id = "Formulario">
             <h3> ESCRIBE TÚ HISTORIA </h3>
             <div className="form-group">
