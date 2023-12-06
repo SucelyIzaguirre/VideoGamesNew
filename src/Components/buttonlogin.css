@@ -1,0 +1,50 @@
+:root {
+    --primary: #fff;
+    --secundary: tomato;
+    }
+
+    .btn {
+        padding: 8px 20px;
+        border-radius: 2px;
+        outline: none;
+        border: none;
+        cursor: pointer;
+    }
+
+    .btn--primary {
+        background-color: var(--primary);
+        color: #242424;
+        border: 1px solid var(--primary);
+    }
+
+    .btn--outline {
+        background-color: transparent;
+        color: #fff;
+        border-radius: 10px;
+        padding: 8px 20px;
+        border: 3px solid var(--primary);
+        transition: all 0.3s ease-out;
+        font-weight: bold;
+    }
+
+    .btn--logout{
+        background-color: tomato;
+        color: white;
+        padding: 10px;
+        border-radius: 25px;
+    }
+
+    .btn--outline:hover{
+        background-color: white;
+        color: tomato;
+    }
+
+    .btn-medium{
+        padding: 8px 20px;
+        font-size: 20px;
+    }
+
+    .btn--large {
+        padding: 12px 26px;
+        font-size: 20px;
+    }

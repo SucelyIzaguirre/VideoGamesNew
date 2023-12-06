@@ -1,0 +1,91 @@
+/* perfiluser.css */
+
+/* Style for the container */
+div {
+  text-align: center;
+  color: antiquewhite;
+}
+
+/* Style for the user image */
+img {
+
+  border-radius: 50%;
+}
+
+/* Style for the user name */
+h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+/* Style for the account creation date */
+p {
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+/* Style for the edit mode form */
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input[type="email"],
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+textarea {
+  height: 100px;
+}
+
+/* Style for the save changes button */
+button {
+    background-color: #694d42; /* Changed to match detalleblog.css */
+    color: white; /* Changed to match detalleblog.css */
+    border: none; /* Changed to match detalleblog.css */
+    /* padding: 10px;  */
+    border-radius: 4px; /* Changed to match detalleblog.css */
+    cursor: pointer; /* Changed to match detalleblog.css */
+}
+
+/* Style for the edit profile button */
+button.edit-button {
+    background-color: #28a745; /* Changed to match detalleblog.css */
+    margin-top: 10px; /* Changed to match detalleblog.css */
+}
+
+/* Style for the error message */
+p.error-message {
+    color: red; /* Changed to match detalleblog.css */
+    font-weight: bold; /* Changed to match detalleblog.css */
+    margin-top: 10px; /* Changed to match detalleblog.css */
+}
+
+/* Style for the login message */
+p.login-message {
+    font-size:18px; /* Changed to match detalleblog.css */
+    margin-top:20px; /* Changed to match detalleblog.css */
+}
+/* Add this to your perfiluser.css file */
+.box {
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.box h2 {
+    text-align:left;
+}
+.box input[type="email"],
+.box input[type="text"],
+.box textarea {
+    color:red;
+}

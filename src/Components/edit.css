@@ -1,0 +1,52 @@
+@font-face {
+  font-family: Montserrat;
+  src: url("../fonts/Montserrat-VariableFont_wght.ttf");
+}
+
+body {
+    font-family: Montserrat;
+    background-color: black;
+    min-height: 100vh;
+  }
+  
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  .form-group input[type="submit"] {
+    background-color: #574331;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px 20px; /* Increase the padding to add more space around the text */
+    width: auto; /* Set the width to auto to allow the button to resize based on its content */
+    text-align: center; /* Centra el texto horizontalmente */
+    display: inline-block; /* Cambia el display a inline-block para que el botón se ajuste a su contenido */
+  }
+  
+  
+  
+  .form-group input[type="submit"]:hover {
+    background-color: #917652;   /*ESTE TIPO DE DISEÑO(EL DE ARRIBA Y ESTE) PODEMOS USAR PARA EL MENU DESPLEGABLE*/
+  }
+  
